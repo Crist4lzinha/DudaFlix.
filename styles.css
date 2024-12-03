@@ -1,0 +1,63 @@
+boby {
+    color:black;
+    background:pink;
+    margin: 0px;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 100px;
+}
+
+header{
+    border-bottom: solid 1px pink;
+    padding:20px;
+    font-size: 32px;
+    color:rgb(225, 130, 182)
+}
+
+.chamada {
+    background: white;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+div{
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 30px;
+}
+
+p{
+    font-size: 20px;
+}
+
+img{
+    height:250px
+}
+
+.categorias-videos {
+    display: flex;
+    overflow-x:auto
+    gap: 10px
+}
+
+.categoria {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 50px;
+}
+
+.categoria-videos  img {
+    opacity: 1.0;
+}
+
+.categorias-videos  img:hover {
+    opacity: 0.5;
+    border:2px solid pink;
+}
+
+.categoria h2 {
+    color:rgb(225, 130, 182)
+}
